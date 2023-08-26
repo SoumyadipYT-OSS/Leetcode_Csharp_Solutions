@@ -2,7 +2,7 @@
 
 # Leetcode_Csharp_Solutions
 
-<img width="100" height="80" src="https://www.avenga.com/wp-content/uploads/2020/11/C-Sharp.png">
+<img width="150" height="80" src="https://www.avenga.com/wp-content/uploads/2020/11/C-Sharp.png">
 
 <p> • Here is the C# solutions of Leetcode problems with most efficient time complexity and greater efficient space complexity. Here, in this repository average 2-3 problems are be posted everyday. </p>
 <h5> Happy Coding 😊 </h5>
