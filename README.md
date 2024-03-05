@@ -1,4 +1,4 @@
-![MasterHead](https://i.ytimg.com/vi/j_Tt-ncv2_0/maxresdefault.jpg)
+![MasterHead](https://i.ytimg.com/vi/s1ibzr5vy2s/maxresdefault.jpg)
 
 # Leetcode_Csharp_Solutions
 
