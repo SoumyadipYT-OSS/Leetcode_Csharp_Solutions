@@ -1,4 +1,4 @@
-![MasterHead](https://i.ytimg.com/vi/s1ibzr5vy2s/maxresdefault.jpg)
+![MasterHead](https://www.eos.com.ec/wp-content/uploads/2019/11/avento.gif)
 
 # Leetcode_Csharp_Solutions
 
