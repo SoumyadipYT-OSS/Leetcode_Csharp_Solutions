@@ -17,7 +17,7 @@ Explanation: The 4 subarrays are bolded and underlined below:
 */
 
 
-ans:
+ // ans:
 
 public class Solution {
     public int NumSubarraysWithSum(int[] nums, int goal) {
