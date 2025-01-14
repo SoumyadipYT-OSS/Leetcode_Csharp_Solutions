@@ -1,0 +1,16 @@
+public class Solution {
+    public int[] FindThePrefixCommonArray(int[] A, int[] B) {
+        int n = A.Length;
+        int[] freq = new int[n+1];
+        int[] C = new int[n];
+        int common = 0;
+
+        for (int i=0; i<n; i++) {
+            if (++freq[A[i]] == 2) common++;
+            if (++freq[B[i]] == 2) common++;
+            C[i] = common;
+        }
+
+        return C;
+    }
+}
