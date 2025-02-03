@@ -1,0 +1,38 @@
+public class Solution
+{
+    public int LongestMonotonicSubarray(int[] nums)
+    {
+        int longest = 1;
+        int prevLongest = 1;
+        int increasing = 1;
+        int decreasing = 1;
+
+        for (int i = 1; i < nums.Length; i++)
+        {
+            if (nums[i] > nums[i - 1])
+            {
+                increasing++;
+                decreasing = 1;
+            }
+            else
+            {
+                increasing = 1;
+            }
+
+            if (nums[i] < nums[i - 1])
+            {
+                decreasing++;
+                increasing = 1;
+            }
+            else
+            {
+                decreasing = 1;
+            }
+
+            prevLongest = increasing > decreasing ? increasing : decreasing;
+            longest = prevLongest > longest ? prevLongest : longest;
+        }
+
+        return longest;
+    }
+}
